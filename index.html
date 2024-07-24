@@ -11,7 +11,18 @@
             color: #fff;
             margin: 0;
             padding: 0;
+
+	    --pink: #ff82b2;
+
         }
+
+	/* Bold font */
+	body:not(.default-font-color) strong,
+	body:not(.default-font-color) span:not(.cm-highlight).cm-strong {
+	  color: var(--pink);
+	}
+
+
         header {
             background-color: #222;
             padding: 10px;
@@ -96,7 +107,7 @@
         <section id="about">
             <h2>About</h2>
             <p>The Idea of <strong>cyber</strong> relate straight to anything that have do with technology which of course in nowadays involve computers.</p>
-            <p>Braking it more simply, it&#39;s something to do with information/data in the computers world, such as <strong>IT (Information Technologies)</strong>, <strong>Digital Communication</strong>, <strong>Information Security</strong> as so on ...</p>
+            <p>Braking it more simply, it&#39;s something to do with information/data in the computers world, such as <strong>IT</strong> (<strong>Information Technologies</strong>), <strong>Digital Communication</strong>, <strong>Information Security</strong> as so on ...</p>
             <h3>The familiar fields are:</h3>
             <ul><h4>Cybersecurity:</h4></ul>
             <ul><ul>
@@ -111,7 +122,7 @@
             <ul><h4>Network Security:</h4></ul>
             <ul><ul>
                 <li><strong>Designing</strong>, <strong>implementing</strong> &amp; <strong>managing security</strong> to protect the networks from <strong>unauthorized access</strong>, <strong>data interception</strong> &amp; <strong>network breaches</strong>.</li>
-                <li>Using <strong>firewalls</strong>, <strong>IDS</strong> (Intrusion Detection Systems) &amp; many more solutions ensuring 2 of the fundamental idea in the information security world <strong>integrity</strong> &amp; <strong>confidentiality</strong> of network communications.</li>
+                <li>Using <strong>firewalls</strong>, <strong>IDS</strong> (<strong>Intrusion Detection Systems</strong>) &amp; many more solutions ensuring 2 of the fundamental idea in the information security world <strong>integrity</strong> &amp; <strong>confidentiality</strong> of network communications.</li>
             </ul></ul>
             <ul><h4>Information Assurance:</h4></ul>
             <ul><ul>
@@ -133,19 +144,19 @@
             <h5>Note:</h5>    
                     In the intersection of technology &amp; security, leveraging these tools enables organizations to proactively <strong>manage risks</strong>, <strong>identify threats</strong> &amp; <strong>respond effectively</strong> to security incidents.<br>
                     Through a robust <strong>cybersecurity approach</strong> &amp; <strong>advanced tools</strong>, organizations can confidently navigate the challenges of the cyber landscape.
-<h3>Top Fields in the <strong>cybersecurity</strong> world:</h3>
+<h3>Top Fields in the cybersecurity world:</h3>
               
            <ul><h4>Vulnerability Management:</h4></ul>
             <ul><ul>
                 <li>At the front of an active defence the are the vulnerability management platforms that gives organizations the ability to <strong>identify</strong>, <strong>assess</strong> &amp; <strong>remediate</strong> vulnerabilities in their <strong>network</strong>, <strong>systems</strong> &amp; <strong>applications</strong>.</li>
                 <li>The comprehensive scanning capabilities &amp; prioritization algorithms that these tools has enable security teams enhance the defences against potential exploits.</li>
             </ul></ul>
-            <ul><h4><strong>SIEM</strong> (Security Information Event Management):</h4></ul>
+            <ul><h4>SIEM (Security Information Event Management):</h4></ul>
             <ul><ul>
                 <li>Can think of this as the nerve centre of the cybersecurity operation, aggregating &amp; correlating enormous amount of security data from different sources.</li>
                 <li>Using analytics &amp; real-time monitoring it provide insights to emerging threats &amp; enabling rapid detection.</li>
             </ul></ul>
-            <ul><h4><strong>EDR</strong> (Endpoint Detection Response):</h4></ul>
+            <ul><h4>EDR (Endpoint Detection Response):</h4></ul>
             <ul><ul>
                 <li>As advanced threats increasingly target endpoints, this solutions provide detailed <strong>visibility</strong> &amp; <strong>behaviour</strong> analysis to <strong>identify</strong> &amp; <strong>stop</strong> malicious activity.</li>
                 <li>By constantly monitoring endpoint behaviour &amp; taking swift response actions, these tools enhance organizations&#39; ability to defend against advanced threats.</li>
@@ -165,7 +176,7 @@
                 <li>The tools mimic actual cyber attacks to evaluate organizational security and pinpoint vulnerabilities before they're exploited by malicious hackers.</li>
                 <li> Penetration testing tools imitate enemies' <strong>tactics</strong>, <strong>techniques</strong> & <strong>procedures</strong> (TTPs), helping organizations <strong>validate</strong> defences & enhance resilience against cyber threats.</li>
             </ul></ul>
-            <ul><h4><strong>SOAR</strong> (Security Orchestration Automation Response):</h4></ul>
+            <ul><h4>SOAR (Security Orchestration Automation Response):</h4></ul>
             <ul><ul>
                 <li>In the realm of <strong>IR</strong> (incident response) <strong>SOAR</strong> platforms optimize & automate security operations by coordinating workflows & response actions across various security tools.</li>
                 <li>It do so by <strong>integrating</strong> threat intelligence, <strong>playbooks</strong> & <strong>automation</strong> capabilities, these solutions enhance the <strong>efficiency</strong> & <strong>effectiveness</strong> of incident response efforts.</li>
@@ -175,12 +186,12 @@
                 <li>This solutions deploy <strong>decoys</strong> & <strong>traps</strong> across IT environments to detect & deceive enemies, providing early warning of intrusions & enhancing threat detection capabilities.</li>
                 <li>By leveraging deception tactics, organizations can proactively detect & disrupt malicious activity, reducing dwell time & mitigating risk.</li>
 	    </ul></ul>
-		<ul><h4><strong>IAM</strong> (Identity Access Management):</h4></ul>
+		<ul><h4>IAM (Identity Access Management):</h4></ul>
 	    <ul><ul>
 		<li>These solutions are fundamental for access control & authentication, it manage users identities, privileges & credentials across digital resources.</li>
 		<li>By enforcing minimum privilege access & multi-factor authentication, IAM platforms strengthen security measures & reduce the risk of unauthorized access.</li>
 	    </ul></ul>
-	    <ul><h4><strong>DLP</strong> (Data Loss Prevention):</h4></ul>
+	    <ul><h4>DLP (Data Loss Prevention):</h4></ul>
 	    <ul><ul>
 		<li>Protecting sensitive data from unauthorized disclosure, these solutions monitor & control the movement of confidential information in the <strong>networks</strong>, <strong>endpoints</strong>, & <strong>cloud</strong> environments. </li>
 		<li>It uses <strong>content inspection</strong>, <strong>encryption</strong> & <strong>policy enforcement</strong>, DLP tools guard the data integrity & ensure compliance with regulatory requirements.</li>
@@ -192,33 +203,33 @@
               Cyber methods include a broad spectrum of actions taken to <strong>safeguard digital assets</strong>, <strong>mitigate risks</strong>, <strong>detect & respond threats</strong> & ensure the overall security of information systems.<br>
 In simple words it's the toolbox of <strong>techniques</strong> & <strong>strategies</strong> used to keep digital information safe from the bad guys" who might try to steal or damage it.
             <h3>Several key areas of the methods:</h3>
-            <ul><h4><strong>Preventative Measures</strong> (Keeping Bad Guys Out):</h4></ul>
+            <ul><h4>Preventative Measures (Keeping Bad Guys Out):</h4></ul>
             <ul><ul>
                 <li>These are proactive strategies (virtual barriers & locks) designed to stop cyber threats before they can cause harm.</li>
                 <li>These include implementing robust <strong>access controls</strong>, <strong>firewalls</strong>, <strong>encryption</strong> & <strong>security policies</strong> to protect against unauthorized access & data breaches.</li>
             </ul></ul>
-            <ul><h4><strong>Detection Techniques</strong> (Spotting Trouble Early):</h4></ul>
+            <ul><h4>Detection Techniques (Spotting Trouble Early):</h4></ul>
             <ul><ul>
                 <li>ADetection methods involve using tools that act as alarms, alerting if something fishy is happening on the systems, like having a digital watchdog that barks if it senses danger.</li>
                 <li>This may involve <strong>real-time monitoring</strong>, <strong>intrusion detection</strong> systems & <strong>threat intelligence feeds</strong> to detect abnormal behaviour or indicators of compromise.</li>
             </ul></ul>
-            <ul><h4><strong>Incident Response</strong> (Dealing with Emergencies):</h4></ul>
+            <ul><h4>Incident Response (Dealing with Emergencies):</h4></ul>
             <ul><ul>
                 <li>When a security incident occurs, effective incident response methods are essential for containing the <strong>threat</strong>, <strong>minimizing damage</strong> & <strong>restoring</strong> normal operations as quickly as possible, like having a fire drill for computer problems.</li>
                 <li>This involves having <strong>predefined incident response plans</strong>, <strong>trained personnel</strong> & <strong>appropriate tools & resources</strong> to investigate, mitigate & recover from security breaches.</li>
             </ul></ul>
-            <ul><h4>Forensics and Investigation</strong> (Investigating What Went Wrong):</h4></ul>
+            <ul><h4>Forensics and Investigation (Investigating What Went Wrong):</h4></ul>
             <ul><ul>
                 <li>The cyber forensics methods are used to <strong>gather</strong> & <strong>analyse</strong> digital evidence related to security incidents or cybercrimes, like being a digital detective, gathering clues to catch the cyber-criminal.</li>
                 <li>Often involves techniques as <strong>disk imaging</strong>, <strong>memory analysis</strong> & <strong>network forensics</strong> to reconstruct <strong>events</strong>, <strong>identify perpetrators</strong> & <strong>support legal proceedings</strong>.</li>
             </ul></ul>
-            <ul><h4><strong>Risk Management</strong> (Managing Risks):</h4></ul>
+            <ul><h4>Risk Management (Managing Risks):</h4></ul>
             <ul><ul>
                 <li>Cyber risk management methods involve <strong>assessing</strong> & <strong>prioritizing</strong> risks to an organization's information assets & implementing controls to mitigate those risks to an acceptable level.</li>
                 <li>In simple words It's like weighing the chances of something bad happening & taking steps to lower those risks.</li>
                 <li>This includes <strong>conducting</strong> risk assessments, establishing risk <strong>tolerance levels</strong> & implementing security controls based on <strong>identified risks</strong>.</li>
             </ul></ul>
-            <ul><h4><strong>Security Awareness and Training</strong> (Teaching People to Be Safe):</h4></ul>
+            <ul><h4>Security Awareness and Training (Teaching People to Be Safe):</h4></ul>
             <ul><ul>
                 <li>Human factors play a significant role in cybersecurity, so methods for educating & training employees about security best practices are essential. </li>
                 <li>Like teaching everyone in the office how to lock up properly & not to share their passwords with strangers.</li>
