@@ -3,67 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>©y63rE</title>
+    <title>CyberEsprit</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #222;
             color: #fff;
             margin: 0;
             padding: 0;
-
-	    --pink: #ff82b2;
-
+            --pink: #ff82b2;
         }
 
-	/* Bold font */
-	body:not(.default-font-color) strong,
-	body:not(.default-font-color) span:not(.cm-highlight).cm-strong {
-	  color: var(--pink);
-	}
-
+        /* Bold font */
+        body:not(.default-font-color) strong,
+        body:not(.default-font-color) span:not(.cm-highlight).cm-strong {
+            color: var(--pink);
+        }
 
         header {
             background-color: #222;
             padding: 10px;
             text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
+
         nav {
             display: flex;
             justify-content: center;
             background-color: #333;
             flex-wrap: wrap;
             padding: 10px;
+            position: fixed;
+            top: 97px; /* Adjust based on header height */
+            width: 100%;
+            z-index: 999;
         }
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 5px 15px;
             font-size: 18px;
         }
+
         nav a:hover {
             color: #00ff00;
         }
+
         .container {
             max-width: 1200px;
-            margin: 20px auto;
+            margin: 180px auto 20px auto; /* Adjust the margin-top to account for the fixed header and nav */
             padding: 0 20px;
         }
+
         section {
             margin-bottom: 40px;
+	    scroll-margin-top: 180px; /* Adjust this value to match the height of your fixed header and nav */
         }
         h1, h2 {
             color: #00ff00;
         }
-	h3 {
-	color: #2E80F2;
-	}
-	h4 {
-	color: #E5B567;
-	}
-	h5 {
-	color: #E83E3E;
-	}
+        h3 {
+            color: #2E80F2;
+        }
+        h4 {
+            color: #E5B567;
+        }
+        h5 {
+            color: #E83E3E;
+        }
         .about-content {
             text-align: justify;
         }
